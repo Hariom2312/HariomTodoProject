@@ -1,21 +1,19 @@
 import React from "react";
 import ReactDom from "react-dom";
-// import App from "./App";
-// import A from "./Hariom/About";
+import App from "./Hariom/App";
+import A from "./Hariom/A";
 import "./index.css";
-import App from "./components/newProject/App";
 import {BrowserRouter} from 'react-router-dom';
 // import Heading from "./Heading";
-// import App from "./Responsive Project/App";
-// import "../node_modules/bootstrap/dist/css/bootstrap.rtl.min.css";
-// import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+
+
 
 const root=ReactDom.createRoot(document.getElementById('root'));
 root.render(
   <>
+     {/* <Heading/> */}
     <BrowserRouter> 
         <App/>
-        {/* <App/> */}
     </BrowserRouter>
   </>
 );
@@ -24,7 +22,7 @@ root.render(
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.Fragment>
-//    <App />
+//  <App />
 //   </React.Fragment>
 // );
 
